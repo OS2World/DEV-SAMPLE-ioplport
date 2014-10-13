@@ -1,0 +1,7 @@
+debug all 
+op map 
+sys os2 
+name testiopl 
+file testiopl, iopl 
+SEGMENT MY_CODE IOPL 
+EXPORT IOPL_INP 2, IOPL_OUTP 4
